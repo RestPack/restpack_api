@@ -1,0 +1,17 @@
+development:
+  adapter: postgresql
+  host: localhost
+  encoding: utf8
+  database: restpack_api_development
+  pool: 5
+  username:
+  password:
+
+test:
+  adapter: postgresql
+  host: localhost
+  encoding: utf8
+  database: restpack_api_test
+  pool: 5
+  username:
+  password:
