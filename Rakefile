@@ -7,3 +7,7 @@ desc "Starts restpack_api on port 8001"
 task :start do
   exec "foreman start -p 8001"
 end
+
+task :irb do
+  exec "irb -r ./support/irb.rb"
+end
