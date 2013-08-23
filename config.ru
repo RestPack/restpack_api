@@ -1,3 +1,4 @@
+require 'restpack_core_service'
 require 'restpack_activity_service'
 require './activity_api'
 
