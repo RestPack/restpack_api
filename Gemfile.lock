@@ -1,56 +1,33 @@
 PATH
   remote: ../restpack_account_service
   specs:
-    restpack_account_service (0.0.2)
-      pg (~> 0.16.0)
-      require_all (~> 1.3.0)
-      restpack_gem
-      restpack_serializer
+    restpack_account_service (0.0.4)
       restpack_service
-      sinatra (~> 1.4.3)
 
 PATH
   remote: ../restpack_activity_service
   specs:
-    restpack_activity_service (0.0.10)
-      pg (~> 0.16)
-      restpack_gem
-      restpack_serializer
+    restpack_activity_service (0.0.12)
       restpack_service
-      sinatra (~> 1.4.3)
 
 PATH
   remote: ../restpack_core_service
   specs:
     restpack_core_service (0.0.11)
-      pg (~> 0.16)
       public_suffix (~> 1.3.1)
-      restpack_gem
-      restpack_serializer
       restpack_service
-      sinatra (~> 1.4.3)
 
 PATH
   remote: ../restpack_group_service
   specs:
-    restpack_group_service (0.0.4)
-      pg (~> 0.16.0)
-      require_all (~> 1.3.0)
-      restpack_gem
-      restpack_serializer
+    restpack_group_service (0.0.7)
       restpack_service
-      sinatra (~> 1.4.3)
 
 PATH
   remote: ../restpack_user_service
   specs:
-    restpack_user_service (0.0.3)
-      pg (~> 0.16)
-      require_all (~> 1.3.0)
-      restpack_gem
-      restpack_serializer
+    restpack_user_service (0.0.4)
       restpack_service
-      sinatra (~> 1.4.3)
 
 GEM
   remote: https://rubygems.org/
@@ -87,18 +64,23 @@ GEM
     rack-protection (1.5.0)
       rack
     raindrops (0.12.0)
-    require_all (1.3.0)
+    require_all (1.3.1)
     restpack_gem (0.0.12)
-    restpack_serializer (0.4.4)
+    restpack_serializer (0.4.6)
       activerecord (~> 4.0)
       activesupport (~> 4.0)
       protected_attributes (~> 1.0.3)
       restpack_gem (~> 0.0.9)
       will_paginate (~> 3.0)
-    restpack_service (0.0.36)
+    restpack_service (0.0.42)
       mutations (~> 0.6.0)
+      pg (~> 0.16.0)
       protected_attributes (~> 1.0.3)
+      require_all (~> 1.3.0)
+      restpack_gem
       restpack_gem (~> 0.0.8)
+      restpack_serializer
+      sinatra (~> 1.4.3)
       yajl-ruby (~> 1.1.0)
     sinatra (1.4.3)
       rack (~> 1.4)
@@ -112,7 +94,7 @@ GEM
       kgio (~> 2.6)
       rack
       raindrops (~> 0.7)
-    will_paginate (3.0.4)
+    will_paginate (3.0.5)
     yajl-ruby (1.1.0)
 
 PLATFORMS
