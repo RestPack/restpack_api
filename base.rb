@@ -13,7 +13,7 @@ class Base < Sinatra::Base
         application_id = @auth.credentials[0]
         api_token = @auth.credentials[1]
 
-        response = RestPack::Core::Service::Commands::Application::VerifyApiToken.run({
+        response = Commands::Core::Application::VerifyApiToken.run({
           id: application_id,
           api_token: api_token
         })

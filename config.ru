@@ -1,8 +1,5 @@
 require 'restpack_core_service'
-require 'restpack_user_service'
 require 'restpack_activity_service'
-require 'restpack_group_service'
-require 'restpack_account_service'
 
 require './activity_api'
 
